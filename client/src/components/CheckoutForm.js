@@ -61,11 +61,11 @@ const CheckoutForm = (props) => {
           <br />
           <br />
           <p>
-            {values.firstName} {values.lastName}
+            {confirmVal.firstName} {confirmVal.lastName}
           </p>
-          <p>{values.address}</p>
+          <p>{confirmVal.address}</p>
           <p>
-            {values.city}, {values.state} {values.zip}
+            {confirmVal.city}, {confirmVal.state} {confirmVal.zip}
           </p>
         </div>
       )}
